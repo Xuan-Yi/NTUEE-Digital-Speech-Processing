@@ -1,4 +1,4 @@
-#include "Viterbi.h"
+#include "../inc/Viterbi.h"
 
 Viterbi::Viterbi(char *filename, char *listname)
 {

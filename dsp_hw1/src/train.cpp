@@ -1,5 +1,5 @@
 #include "../inc/hmm.h"
-#include "trainer.h"
+#include "../inc/trainer.h"
 #include <iostream>
 #include <string>
 #include <chrono>

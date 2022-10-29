@@ -1,4 +1,4 @@
-#include "trainer.h"
+#include "../inc/trainer.h"
 
 Trainer::Trainer(char *filename, HMM *_hmm)
 {

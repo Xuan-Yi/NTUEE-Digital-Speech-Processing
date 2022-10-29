@@ -3,7 +3,7 @@
 #include <vector>
 #include <fstream>
 #include "../inc/hmm.h"
-#include "Viterbi.h"
+#include "../inc/Viterbi.h"
 
 using namespace std;
 

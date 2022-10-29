@@ -1,3 +1,4 @@
+.vscode
 # dsp_hw1
 dsp_hw1/report.docx
 dsp_hw1/test
@@ -9,6 +10,9 @@ dsp_hw1/model_03.txt
 dsp_hw1/model_04.txt
 dsp_hw1/model_05.txt
 dsp_hw1/result.txt
+dsp_hw1/hw1_b09901080
+dsp_hw1/src/test_hmm.c
+dsp_hw1/hw1_b09901080.zip
 
 # Prerequisites
 *.d
