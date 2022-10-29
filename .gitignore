@@ -1,3 +1,15 @@
+# dsp_hw1
+dsp_hw1/report.docx
+dsp_hw1/test
+dsp_hw1/train
+dsp_hw1/.vscode
+dsp_hw1/model_01.txt
+dsp_hw1/model_02.txt
+dsp_hw1/model_03.txt
+dsp_hw1/model_04.txt
+dsp_hw1/model_05.txt
+dsp_hw1/result.txt
+
 # Prerequisites
 *.d
 

@@ -52,7 +52,7 @@ int main(int argc, char *argv[])
     {
         string best_model = modelname[result[n].best_model];
         double likelihood = result[n].likelihood;
-        fw << result[n].best_model << " " << likelihood << "\n";
+        fw << modelname[result[n].best_model] << " " << likelihood << "\n";
     }
     fw.close();
 

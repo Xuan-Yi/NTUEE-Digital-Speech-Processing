@@ -1,24 +1,18 @@
 #include "../inc/hmm.h"
 #include "trainer.h"
 #include <iostream>
-#include <fstream>
 #include <string>
-#include <vector>
-#include <ctime>
+#include <chrono>
 
 using namespace std;
 
-int T = 50;      // length of sequence
-int seq_num = 0; // number of sequences
-
 int main(int argc, char *argv[])
 {
-    // time_t init_time = time(nullptr);
-    time_t init_time, time_count;
+    auto begin = chrono::high_resolution_clock::now();
 
     if (argc != 5) // check validation
     {
-        cout << "Command not valid. It should be in the folowing form:\n"
+        cout << "Command not valid. It should be in the following form:\n"
              << "\t./train <iter> <model_init_path> <seq_path> <output_model_path>\n";
         exit(1);
     }
@@ -35,34 +29,30 @@ int main(int argc, char *argv[])
          << "model_init_path: " << model_init_path << "\n"
          << "seq_path: " << seq_path << "\n"
          << "output_model_path: " << output_model_path << "\n"
-         << "+==========+==========+==========+\n\n";
+         << "+==========+==========+==========+\n";
+
+    // static variables
 
     // basic problem 3
     HMM hmm;
     loadHMM(&hmm, model_init_path.data());
+    Trainer trainer(seq_path.data(), &hmm);
 
     for (int i = 0; i < iter; i++)
     {
-        cout << "=== Start Training " << (i + 1) << " ===\n";
-        init_time = time(nullptr);
-        Trainer trainer(seq_path.data(), &hmm);
-        time_count = time(nullptr) - init_time;
-        cout << "Reading takes " << time_count << " seconds.\n";
-        init_time = time(nullptr);
+        if ((i + 1) % 10 == 0)
+            cout << (i + 1) << flush;
+        else
+            cout << "." << flush;
         trainer.Update_HMM();
-        time_count = time(nullptr) - init_time;
-        cout << "Processing takes " << time_count << " seconds.\n";
-        cout << "=== Finish Training " << (i + 1) << " ===\n\n";
     }
 
     // export model
     FILE *fp = open_or_die(output_model_path.data(), "w");
     dumpHMM(fp, &hmm);
 
-    /*
-    time_t time_count = time(nullptr) - init_time;
-    cout << "Take " << time_count << " seconds.\n";
-    */
-
+    auto end = chrono::high_resolution_clock::now();
+    auto duration = chrono::duration_cast<std::chrono::milliseconds>(end - begin).count();
+    cout << "\t Take " << duration / 1000.0 << " seconds.\n";
     return 0;
 }
