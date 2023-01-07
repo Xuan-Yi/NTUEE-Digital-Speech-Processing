@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.2705 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "RCDIF" 
+        xmin = 0 
+        xmax = 2.2705 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.056455745285159176 
+            text = "n_i" 
+        intervals [2]:
+            xmin = 0.056455745285159176 
+            xmax = 0.21069161966853597 
+            text = "iau" 
+        intervals [3]:
+            xmin = 0.21069161966853597 
+            xmax = 0.26038984585873515 
+            text = "l_ee" 
+        intervals [4]:
+            xmin = 0.26038984585873515 
+            xmax = 0.45746901868193884 
+            text = "ei" 
+        intervals [5]:
+            xmin = 0.45746901868193884 
+            xmax = 0.5722890585006749 
+            text = "sh_empt" 
+        intervals [6]:
+            xmin = 0.5722890585006749 
+            xmax = 0.7659894717763985 
+            text = "empt1" 
+        intervals [7]:
+            xmin = 0.7659894717763985 
+            xmax = 0.827560303508953 
+            text = "l_u" 
+        intervals [8]:
+            xmin = 0.827560303508953 
+            xmax = 1.0786220323663382 
+            text = "uan" 
+        intervals [9]:
+            xmin = 1.0786220323663382 
+            xmax = 1.1823028145907193 
+            text = "sh_e" 
+        intervals [10]:
+            xmin = 1.1823028145907193 
+            xmax = 1.4154451717964682 
+            text = "eng" 
+        intervals [11]:
+            xmin = 1.4154451717964682 
+            xmax = 1.4857081812377844 
+            text = "d_u" 
+        intervals [12]:
+            xmin = 1.4857081812377844 
+            xmax = 1.6656013309622495 
+            text = "ueng" 
+        intervals [13]:
+            xmin = 1.6656013309622495 
+            xmax = 1.7581915593150832 
+            text = "sic_u" 
+        intervals [14]:
+            xmin = 1.7581915593150832 
+            xmax = 2.0837519233168096 
+            text = "u" 
+        intervals [15]:
+            xmin = 2.0837519233168096 
+            xmax = 2.2705 
+            text = "sil" 

@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.2205 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "RCDIF" 
+        xmin = 0 
+        xmax = 2.2205 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.025044629197110025 
+            text = "" 
+        intervals [2]:
+            xmin = 0.025044629197110025 
+            xmax = 0.19431990711385427 
+            text = "iu" 
+        intervals [3]:
+            xmin = 0.19431990711385427 
+            xmax = 0.2834165670319626 
+            text = "m_u" 
+        intervals [4]:
+            xmin = 0.2834165670319626 
+            xmax = 0.507161612595184 
+            text = "u" 
+        intervals [5]:
+            xmin = 0.507161612595184 
+            xmax = 0.5596863485579161 
+            text = "sic_i" 
+        intervals [6]:
+            xmin = 0.5596863485579161 
+            xmax = 0.8569407053429567 
+            text = "iang" 
+        intervals [7]:
+            xmin = 0.8569407053429567 
+            xmax = 0.9887405183270898 
+            text = "sh_empt" 
+        intervals [8]:
+            xmin = 0.9887405183270898 
+            xmax = 1.198239624659694 
+            text = "empt1" 
+        intervals [9]:
+            xmin = 1.198239624659694 
+            xmax = 1.3306430598619 
+            text = "chi_iu" 
+        intervals [10]:
+            xmin = 1.3306430598619 
+            xmax = 1.5862337475892936 
+            text = "iung" 
+        intervals [11]:
+            xmin = 1.5862337475892936 
+            xmax = 1.715264908134083 
+            text = "ts_a" 
+        intervals [12]:
+            xmin = 1.715264908134083 
+            xmax = 2.0836955010054283 
+            text = "ang" 
+        intervals [13]:
+            xmin = 2.0836955010054283 
+            xmax = 2.2205 
+            text = "sil" 

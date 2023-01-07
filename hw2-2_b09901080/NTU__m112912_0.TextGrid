@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.0955 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "RCDIF" 
+        xmin = 0 
+        xmax = 2.0955 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.06317590450193132 
+            text = "" 
+        intervals [2]:
+            xmin = 0.06317590450193132 
+            xmax = 0.22766699836827534 
+            text = "iau" 
+        intervals [3]:
+            xmin = 0.22766699836827534 
+            xmax = 0.29297728574160586 
+            text = "l_e" 
+        intervals [4]:
+            xmin = 0.29297728574160586 
+            xmax = 0.4544379298931537 
+            text = "eng" 
+        intervals [5]:
+            xmin = 0.4544379298931537 
+            xmax = 0.5438008799263118 
+            text = "l_e" 
+        intervals [6]:
+            xmin = 0.5438008799263118 
+            xmax = 0.7855020590121756 
+            text = "eng" 
+        intervals [7]:
+            xmin = 0.7855020590121756 
+            xmax = 0.8612491586910068 
+            text = "r_u" 
+        intervals [8]:
+            xmin = 0.8612491586910068 
+            xmax = 1.0193631299105796 
+            text = "u" 
+        intervals [9]:
+            xmin = 1.0193631299105796 
+            xmax = 1.1313150652071433 
+            text = "g_u" 
+        intervals [10]:
+            xmin = 1.1313150652071433 
+            xmax = 1.3061141678242576 
+            text = "uei" 
+        intervals [11]:
+            xmin = 1.3061141678242576 
+            xmax = 1.3551451669574948 
+            text = "sic_i" 
+        intervals [12]:
+            xmin = 1.3551451669574948 
+            xmax = 1.4615405357775584 
+            text = "i" 
+        intervals [13]:
+            xmin = 1.4615405357775584 
+            xmax = 1.5631612355940252 
+            text = "b_a" 
+        intervals [14]:
+            xmin = 1.5631612355940252 
+            xmax = 1.9162026324921777 
+            text = "an" 
+        intervals [15]:
+            xmin = 1.9162026324921777 
+            xmax = 2.0955 
+            text = "sil" 
